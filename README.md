@@ -35,7 +35,7 @@ To run the application in development mode with hot-reloading:
 npm run dev
 ```
 
-Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the landing page.
+Open your browser and navigate to [http://localhost:3000/.well-known/nostr.json](http://localhost:3000/.well-known/nostr.json) to see the results.
 
 #### Production mode
 
