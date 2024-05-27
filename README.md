@@ -69,7 +69,7 @@ Edit [nostr.json](/public/.well-known/nostr.json). The file currently looks like
 {"names": {"_": "5f76fb9ebe892276650aa9ba696afe3218f2f1120d0d0abdbb9141a5e627a71e"}}
 ```
 
-A Nostr ID splits into a `<local-part>` and `<domain>` and a client use these values to make a GET request to https://<domain>/.well-known/nostr.json?name=<local-part>. 
+A Nostr ID splits into a `<local-part>` and `<domain>` and a client use these values to make a GET request to https://`<domain>`/.well-known/nostr.json?name=<local-part>. 
 
 If you don't want to have a `<local-part>` you can leave a `_` like I did. The second part at the [nostr.json](/public/.well-known/nostr.json) is just your public key. 
 Replace that with your own key
