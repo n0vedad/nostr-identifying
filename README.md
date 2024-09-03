@@ -1,6 +1,6 @@
 # nostr-identifying
 
-This is a [Next.js](https://nextjs.org/) App to serve a /.well-known-endpoint which fullfill the [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md) standard for [Nostr](https://nostr.com/).
+This is a [Express.js](https://expressjs.com/de/) App to serve a /.well-known-endpoint which fullfill the [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md) standard for [Nostr](https://nostr.com/).
 
 ## Getting started
 
@@ -8,7 +8,6 @@ This is a [Next.js](https://nextjs.org/) App to serve a /.well-known-endpoint wh
 
 - Node.js (v14.x or later)
 - npm (v6.x or later)
-- Next.js (v14.x or later)
 
 ### Installation
 
@@ -56,6 +55,10 @@ To build and run the application in production mode:
 Once you get your changes done simply serve this app with Node.js or e.g. the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
 ## Project structure
+
+### `src/` 
+
+Contains the TypeScript source files
 
 ### `public/.well-known`
 
